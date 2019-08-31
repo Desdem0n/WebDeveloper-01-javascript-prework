@@ -38,6 +38,8 @@ else if(playerInput != '1' && playerInput != '2' && playerInput != '3') {
 }
 //czy wariant poniżej może być tak zakodowany?
 
+//czy w javascripcie mogę korzystać tak jak w javie z && oraz z || ?
+
 else if(playerInput >3 && playerInput <4) {
     printMessage('Incorrect pick!!!');
 
