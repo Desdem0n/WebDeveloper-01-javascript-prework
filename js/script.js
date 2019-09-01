@@ -33,18 +33,18 @@ else if(playerInput == '3'){
     playerMove = 'scissors';
 }
 
-else if(playerInput != '1' && playerInput != '2' && playerInput != '3') {
+else if(playerInput != '1' || playerInput != '2' || playerInput != '3') {
     printMessage('Wrong symbol!!! ' + 'Choose again');
 }
 //czy wariant poniżej może być tak zakodowany?
 
 //czy w javascripcie mogę korzystać tak jak w javie z && oraz z || ?
 
-else if(playerInput >3 && playerInput <4) {
-    printMessage('Incorrect pick!!!');
+//else if(playerInput >3 && playerInput <4) {
+  //  printMessage('Incorrect pick!!!');
 
 
-}
+//}
 
 
 
